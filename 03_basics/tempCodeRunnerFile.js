@@ -1,0 +1,1 @@
+console.log(LoginUserMessage("samuel@453"));
