@@ -51,4 +51,32 @@ console.log(Object.entries(tinderUser));
 // Object.hasOwnProperty--> Determines whether an object has a property with the specified name
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+///***************************OBJECT de-Structure and JSON API intro */
 
+const player={
+    playername:"Raj Shekhar",
+    teamname:"SuperStrikers",
+    position:"forward"
+}
+
+//another method to access the vcalue of object
+
+const{playername}=player
+
+console.log(playername);
+
+//******* JSON --> JavaScript Object Notation*/ 
+
+
+// {
+//     "name":"Raj Shekhar",
+//     "coursename":"js in hindi",
+//     "price":"free"
+
+// }
+
+[
+    {},
+    {},
+    {},
+]
