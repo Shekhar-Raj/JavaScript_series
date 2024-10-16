@@ -1,1 +1,5 @@
-console.log(LoginUserMessage("samuel@453"));
+addone(5)
+
+function addone(num){
+    return num+1
+}

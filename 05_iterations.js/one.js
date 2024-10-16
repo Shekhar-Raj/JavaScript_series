@@ -39,7 +39,7 @@ for (let index = 1; index <=20; index++) {
 for (let index = 1; index <=20; index++) {
     if(index==5){
         console.log(`${index} is detected`);
-        continue;                                    // break comes out of the loop and nothing is executeed afterwards.
+        continue;                                    // continue skips the value and continues the loop!
     }
     console.log(`Value of index is ${index}`);
 }

@@ -28,7 +28,7 @@ const two=(num1,num2)=>{
 console.log(two(3,4))
 
 //****** IMPORTANT FOR INTERVIEWS AND REACT */
-//Implicit Returns
+//Implicit Returns 
 
 const three=(a,b)=>(a+b)
 console.log(three(3,5)) /// here we are using round brackets, and no need to return , it returns automatically.
